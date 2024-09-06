@@ -3,8 +3,9 @@ var name='good boy';
 function dude(){
     return name;
 }
-function Helloboy(){
-    return <div>pasindu iroshan {dude()} {10+20}</div>
+function Helloboy(props){
+    return <div>{props.message} {props.name} {props.run}</div>
+    
 }
 
 export default Helloboy;
