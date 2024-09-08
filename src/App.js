@@ -1,14 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import Helloboy from './components/Hello';
- var run={dog:"black",cat:"white"};
+ const run=[1,2,3];
+ const person={
+  name:"pasindu",
+  message:"hi i am",
+  emoji:"heart"
+ }
 
 function App() {
   return (
     <div>
-    <Helloboy name="rob" message="hi ther i am"></Helloboy>
-    <Helloboy name="tom" message="hi dude i am"></Helloboy>
-    <Helloboy run></Helloboy>
+    <Helloboy  person={person}></Helloboy>
     </div>
     
   );

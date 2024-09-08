@@ -1,10 +1,10 @@
-var name='good boy';
+
 
 function dude(){
-    return name;
+
 }
-function Helloboy(props){
-    return <div>{props.message} {props.name} {props.run}</div>
+function Helloboy({person}){
+    return <div>{person.name} {person.message} {person.emoji}</div>
     
 }
 
